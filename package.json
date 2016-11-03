@@ -1,0 +1,33 @@
+{
+  "name": "deploy-git",
+  "version": "0.0.0",
+  "description": "命令行提交對應配置文件夾下的文件至github/gitcafe指定分支",
+  "bin": {
+    "gitweb": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liubiao0810/deploy-git.git"
+  },
+  "keywords": [
+    "git提交"
+  ],
+  "author": "花夏",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liubiao0810/deploy-git/issues"
+  },
+  "homepage": "https://github.com/liubiao0810/deploy-git#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "chalk": "^1.1.3",
+    "fs-exists-promise": "^1.0.0",
+    "hexo-util": "^0.6.0",
+    "moment": "^2.15.2",
+    "swig": "^1.4.2"
+  }
+}
